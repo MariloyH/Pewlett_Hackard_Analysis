@@ -17,15 +17,15 @@ WHERE birth_date BETWEEN '1952-01-01' AND '1955-12-31'
 ORDER BY emp_no;
 
 SELECT * FROM retirement_titles;
-
+SELECT * FROM dept_emp;
+SELECT * FROM titles;
 
 SELECT r.emp_no, 
 	   r.first_name,
 	   r.last_name,
 	   r.title,
 	   r.from_date,
-	   r.to_date
-	  
+	   r.to_date	  
 FROM retirement_titles AS r
 ORDER BY r.emp_no, r.to_date DESC;
 
@@ -49,6 +49,41 @@ SELECT title, COUNT (emp_no) AS  "count"
 FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(*) DESC;
+
+
+-- Deliverable 2. 
+--- Create a Mentorship Eligibility Table with  all the current employees, 
+-- whose the birth_date are between January 1, 1965 and December 31, 1965.
+SELECT * FROM employees;
+SELECT * FROM dept_emp;
+SELECT * FROM titles;
+
+
+SELECT DISTINCT ON (emp_no) e.emp_no, 
+       e.first_name, 
+	   e.last_name, 
+	   e.birth_date, 
+       de.from_date, 
+	   de.to_date,
+	   t.title	   	   
+--INTO mentorship_eligibility
+FROM employees AS e
+  INNER JOIN dept_emp AS de 
+    ON (e.emp_no = de.emp_no)
+  INNER JOIN titles as t
+    ON (e.emp_no = t.emp_no)
+WHERE (de.to_date = '9999-01-01') AND    
+      (t.to_date = '9999-01-01') AND
+      (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+ORDER BY emp_no;
+
+
+
+
+
+
+
+
 
 
 
