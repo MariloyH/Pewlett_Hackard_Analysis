@@ -4,31 +4,24 @@ BootCamp Week7 SQL
 # Overview 
 Pewlett- Hackard is a large company with a long time in the industry, so it has a lot of employees in retirement age. For this reason, they are preparing  two strategies: first, offering a retirement package for the next to retire employees,  and second, preparing other employees to ocupy the future vacancies.  
 From the previous work,  we need to determine the number of retiring employees per title, because this is the number of future vacancies and they need to prepare people for this. Then we need to identify employees who are eligible to participate in a mentorship program.
-We wil use SQL queries to look into the the employee´s data and will create new tables with the informtation we will need to send a recomendtion to the company.
+We wil use SQL queries to look into the the employee´s data and will create new tables, stored in *.csv* files with the requested data fo to send a r their analysis and prepare a recomendation.
 
 # Results
-## First we create a new table with all the actual employees in age of retirement.
+We generate resulting tables: one, *Unique Titles* with the data of  the actual employees in age of retirement and their actual titles, to know how many vacancies will in the next months, and the second with the count of the employees and their titles.
 
 **Unique Titles**
-<img width="383" alt="unique_titles_head" src="https://user-images.githubusercontent.com/102195803/169389429-bfa57e2f-27b9-4196-b8bf-ff11a0d9bf47.png">
+<img width="383" alt="unique_titles_head" src="https://user-images.githubusercontent.com/102195803/169389429-bfa57e2f-27b9-4196-b8bf-ff11a0d9bf47.png"
 
-
-**Retiring titles** 
-
+**Retiring titles**
 <img width="223" alt="retiring_titles" src="https://user-images.githubusercontent.com/102195803/169389597-20cbbec0-4902-4673-8888-3836c7964388.png">
 
-From this results, it can see that the company will have **72,458 vacancies** in the next future..  We see why it´s
- called the "Silver Tsunami""
+From this results, it can see that the company will have **72,458 vacancies** in the next future.. This requires a deep planning and reorganization of the jobs in order to hire new elements for the most basic levels and at the same time to promote the growth of the talents that are already in the company. To do this, the company is proposing a mentoring plan so that employees with some experience can start preparing new talent for their future positions. The next table shows the candidates to the new Mentorship program. 
 
-## Second
+**Mentorship titles**
+<img width="616" alt="mentorship_program" src="https://user-images.githubusercontent.com/102195803/169414766-45b9de97-62e3-451a-aa7f-b1f6432e87bb.png">
 
-There is a title, and there are multiple sections. (2 pt)
-Each section has a heading and subheading. (2 pt)
-Links to images are working and displayed correctly. (2 pt)
-Analysis (14 points)
-The written analysis has the following:
+For this informatio we can 
 
-Overview of the analysis:
 
 The purpose of the new analysis is well defined. (3 pt)
 Results:
