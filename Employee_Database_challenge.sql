@@ -45,11 +45,13 @@ SELECT * FROM unique_titles
 -- Step 16 -
 SELECT COUNT (*) FROM unique_titles;
 
-SELECT title, COUNT (emp_no) AS  "count"
+SELECT COUNT (emp_no) AS  "count",  title
+INTO retiring_titles
 FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(*) DESC;
 
+SELECT * FROM retiring_titles;
 
 -- Deliverable 2. 
 --- Create a Mentorship Eligibility Table with  all the current employees, 
@@ -66,7 +68,7 @@ SELECT DISTINCT ON (emp_no) e.emp_no,
        de.from_date, 
 	   de.to_date,
 	   t.title	   	   
---INTO mentorship_eligibility
+INTO mentorship_eligibilty
 FROM employees AS e
   INNER JOIN dept_emp AS de 
     ON (e.emp_no = de.emp_no)
@@ -77,13 +79,9 @@ WHERE (de.to_date = '9999-01-01') AND
       (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no;
 
+SELECT COUNT (*) FROM mentorship_eligibilty; 
 
-
-
-
-
-
-
+SELECT * FROM mentorship_eligibilty;
 
 
 
