@@ -2,19 +2,23 @@
 BootCamp Week7 SQL 
 
 # Overview 
-Pewlett- Hackard is a large company with a long time in the industry, so it has a lot of employees in retirement age. For this reason, they are preparing  two strategies: first, offering a retirement package and second, preparing employees to ocupy the future vacancies.  
-From the previous work, now we need to determine the number of retiring employees per title, because this is the number of future vacancies and they need to prepare people for this. Then we need to identify employees who are eligible to participate in a mentorship program.
-We wil use SQL queries to manipulate the company information and will create new tables with the data...
+Pewlett- Hackard is a large company with a long time in the industry, so it has a lot of employees in retirement age. For this reason, they are preparing  two strategies: first, offering a retirement package for the next to retire employees,  and second, preparing other employees to ocupy the future vacancies.  
+From the previous work,  we need to determine the number of retiring employees per title, because this is the number of future vacancies and they need to prepare people for this. Then we need to identify employees who are eligible to participate in a mentorship program.
+We wil use SQL queries to look into the the employee´s data and will create new tables with the informtation we will need to send a recomendtion to the company.
 
 # Results
 ## First we create a new table with all the actual employees in age of retirement.
-#unique tables
 
-#retiring_titles  and count 
+**Unique Titles**
+<img width="383" alt="unique_titles_head" src="https://user-images.githubusercontent.com/102195803/169389429-bfa57e2f-27b9-4196-b8bf-ff11a0d9bf47.png">
 
 
+**Retiring titles** 
 
-From this results, it can see that the company will have 72,458 vacancies in the next future.. 
+<img width="223" alt="retiring_titles" src="https://user-images.githubusercontent.com/102195803/169389597-20cbbec0-4902-4673-8888-3836c7964388.png">
+
+From this results, it can see that the company will have **72,458 vacancies** in the next future..  We see why it´s
+ called the "Silver Tsunami""
 
 ## Second
 
