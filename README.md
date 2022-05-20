@@ -25,14 +25,15 @@ From this table we can see that the number of candidates to be mentored is not e
   1. In the next months, Pewlett-Hackard Company  will have 72,458 employees in retirement, the 30% of the total 240,724.
   2. The 70%  of employees next to retire have Senior titles.
   3. The company has 1,549 candidates eligibles for a Mentorship programm, i.e. candidates to instruct the new generetion of PH employees.
-  4. 
-
+  4. The same proportion remains: 70% of potential mentors are in Senior positions. 
 
 # Summary:
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
  **How many roles will need to be filled as the "silver tsunami" begins to make an impact?** 
- From the *Retiring Titles* table, we can observe that the 70.16% of the future vacancies will be in the Senior jobs: Senior Staff and Senior Engineering, that is, jobs who require experienced workers in the area. These jobs can be filled by employees currently working at the previous level. For this reason, I proposed to start hiring lower level employees such as Engineers, Staff and Technical Leaders who are the remaining 30% and who are positions that will be easier to fill with new talent.
- 
+ From the *Retiring Titles* table, we can observe that the 70.16% of the future vacancies will be in the **Senior jobs: Senior Staff and Senior Engineering**, that is, jobs who require experienced workers in the area. These jobs can be filled by employees currently working at the previous level. To support this proposal, we generated a new query to obtain a new table: *actual_employees.csv*, which would include the employees currently working without those who are about to retire. From there, we obtained another table, actual_positions, to know how many of those employees can be promoted.
+ ![image](https://user-images.githubusercontent.com/102195803/169595811-ceb78134-76e4-44f6-86d6-31435f1839e8.png)
+
+So,  I consider the first roles we need to fill are the lower roles, as **Engineers, Staff, Technical Leaders and Assistant Engineer**, an HR start a massive recruitment of talent, maybe in stages, to fill the silver tsunami!!   
+
  **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
- From the *Menthorship Program* table, we can see that we have 1,549 mentor prospects, in almost all the areas. If we consider that to replace the vacancies, PH has to hire 72,458, this number is clearly insufficient.
-The summary addresses the two questions and contains two additional queries or tables that may provide more insight. (5 pt)
+ From the *Menthorship Program* table, we can see that we have 1,549 mentor prospects. If we consider that to replace the vacancies, PH has to hire 72,458 new employees, this number is clearly insufficient.
