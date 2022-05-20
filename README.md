@@ -31,9 +31,20 @@ From this table we can see that the number of candidates to be mentored is not e
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
  **How many roles will need to be filled as the "silver tsunami" begins to make an impact?** 
  From the *Retiring Titles* table, we can observe that the 70.16% of the future vacancies will be in the **Senior jobs: Senior Staff and Senior Engineering**, that is, jobs who require experienced workers in the area. These jobs can be filled by employees currently working at the previous level. To support this proposal, we generated a new query to obtain a new table: *actual_employees.csv*, which would include the employees currently working without those who are about to retire. From there, we obtained another table, actual_positions, to know how many of those employees can be promoted.
- ![image](https://user-images.githubusercontent.com/102195803/169595811-ceb78134-76e4-44f6-86d6-31435f1839e8.png)
+ 
+ **Aditional Queries**
+ <img width="568" alt="Aditional Queries" src="https://user-images.githubusercontent.com/102195803/169599940-6a280c14-5d8d-42c3-b83c-edf0776419d7.png">
+ 
+**Actual Positions**
+ <img width="223" alt="Actual_positions" src="https://user-images.githubusercontent.com/102195803/169599896-a837530d-de9e-4ea2-bd1e-1380b78e5426.png">
+
+
+
 
 So,  I consider the first roles we need to fill are the lower roles, as **Engineers, Staff, Technical Leaders and Assistant Engineer**, an HR start a massive recruitment of talent, maybe in stages, to fill the silver tsunami!!   
 
  **Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?**
- From the *Menthorship Program* table, we can see that we have 1,549 mentor prospects. If we consider that to replace the vacancies, PH has to hire 72,458 new employees, this number is clearly insufficient.
+ From the *Menthorship Program* table, we can see that we have 1,549 mentor prospects. If we consider clasify by titles, it´s a small number also for fill the  72,458 vacancies. Thus, this number is clearly insufficient. There are not enough qualified retirement-ready employees to mentor the next generation. 
+ 
+ <img width="202" alt="Mentorship_titles" src="https://user-images.githubusercontent.com/102195803/169600082-472a1bb9-b156-4132-9a11-836afff59853.png">
+
