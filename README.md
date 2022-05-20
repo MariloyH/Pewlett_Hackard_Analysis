@@ -2,7 +2,7 @@
 BootCamp Week7 SQL 
 
 # Overview 
-  Pewlett- Hackard is a large company with a long time in the industry and it has a lot of employees in retirement age. Preparing  themselves for this change, they designed two strategies: first, offering a retirement package for the retirement-ready employees,  and second, preparing  a Mentorship Program with experience employees who  can instruct the next generation of employees to fill the vacancies..
+  Pewlett- Hackard is a large company with a long time in the industry and it has a lot of employees in retirement age. Preparing  themselves for this change, the company designed two strategies: first, offering a retirement package for the retirement-ready employees,  and second, preparing  a Mentorship Program with experience employees who  can instruct the next generation of employees to fill the vacancies..
   
   We need to determine the number of future vacancies and identify the employees who are eligible to participate in a mentorship program.
 
