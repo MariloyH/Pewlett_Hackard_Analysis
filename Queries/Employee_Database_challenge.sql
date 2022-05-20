@@ -16,9 +16,11 @@ LEFT JOIN titles AS t ON (e.emp_no = t.emp_no)
 WHERE birth_date BETWEEN '1952-01-01' AND '1955-12-31'
 ORDER BY emp_no;
 
-SELECT * FROM retirement_titles;
+SELECT * FROM retirement_titles; 
 SELECT * FROM dept_emp;
 SELECT * FROM titles;
+
+SELECT COUNT (*) FROM retirement_titles;
 
 SELECT r.emp_no, 
 	   r.first_name,
@@ -80,4 +82,36 @@ WHERE (de.to_date = '9999-01-01') AND
 ORDER BY emp_no;
 SELECT * FROM mentorship_eligibilty;
 
+-- Aditional Tables for suportting Summary
+-- Mentorship_titles
+SELECT COUNT (emp_no) AS  "count",  title
+INTO mentorship_titles
+FROM mentorship_eligibilty
+GROUP BY title
+ORDER BY COUNT(*) DESC;  
+
+SELECT * FROM mentorship_titles
+--- Actual Employeers not in Retirement
+SELECT e.emp_no, 
+       e.first_name, 
+	   e.last_name, 
+       t.title, 
+	   t.from_date, 
+	   t.to_date
+INTO actual_employees
+FROM employees AS e
+LEFT JOIN titles AS t ON (e.emp_no = t.emp_no)
+WHERE birth_date > '1955-12-31' AND (t.to_date ='9999-01-01')  
+ORDER BY emp_no;
+
+SELECT * FROM actual_employees;
+
+--- Actual positions  
+SELECT COUNT (emp_no) AS  "count",  title
+INTO actual_positions
+FROM actual_employees
+GROUP BY title
+ORDER BY COUNT(*) DESC;
+
+SELECT * FROM actual_positions;
 
