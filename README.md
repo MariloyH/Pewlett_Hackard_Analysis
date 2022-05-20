@@ -10,24 +10,24 @@ BootCamp Week7 SQL
   
   ![image](https://user-images.githubusercontent.com/102195803/169421450-0d4ab533-d2de-4679-9738-c2934c8978ee.png)  
 
-    **Unique Titles**
+  **Unique Titles**
 <img width="383" alt="unique_titles_head" src="https://user-images.githubusercontent.com/102195803/169389429-bfa57e2f-27b9-4196-b8bf-ff11a0d9bf47.png">
 
-    **Retiring Titles**
+  **Retiring Titles**
 <img width="223" alt="retiring_titles" src="https://user-images.githubusercontent.com/102195803/169389597-20cbbec0-4902-4673-8888-3836c7964388.png">
 
   From this results, it can see that the company will have **72,458 vacancies** in the next future. This requires a deep planning and reorganization of the jobs in order to hire new elements for the most basic levels and at the same time to promote the growth of the talents that are already in the company. To do this, the company is proposing a mentoring plan so that employees with some experience can start preparing new talent for their future positions. The next table shows the candidates to the new Mentorship program. 
-
-  **Mentorship program**
+  
+ **Mentorship Eligibilty**
 <img width="616" alt="mentorship_program" src="https://user-images.githubusercontent.com/102195803/169414766-45b9de97-62e3-451a-aa7f-b1f6432e87bb.png">
 
-From this table we can see that the number of candidates to be mentored is not enough to prepare the large number of positions that will need to be filled.
+From this table we can see that the number of candidates to be mentored is not enough to prepare the large number of positions that will need to be filled, so we can observe this results:
+  1. In the next months, Pewlett-Hackard Company  will have 72,458 employees in retirement, the 30% of the total 240,724.
+  2. The 70%  of employees next to retire have Senior titles.
+  3. The company has 1,549 candidates eligibles for a Mentorship programm, i.e. candidates to instruct the new generetion of PH employees.
+  4. 
 
-The purpose of the new analysis is well defined. (3 pt)
 
-**Results:**
-From the resulting data we can see:
-  
 # Summary:
 Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
  **How many roles will need to be filled as the "silver tsunami" begins to make an impact?** 
