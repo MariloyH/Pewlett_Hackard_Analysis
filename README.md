@@ -2,10 +2,8 @@
 BootCamp Week7 SQL 
 
 # Overview 
-  Pewlett- Hackard is a large company with a long time in the industry, so it has a lot of employees in retirement age. For this reason, they are preparing  two strategies: first, offering a retirement package for the next to retire employees,  and second, preparing other employees to ocupy the future vacancies.  
-From the previous work,  we need to determine the number of retiring employees per title, because this is the number of future vacancies and they need to prepare people for this. Then we need to identify employees who are eligible to participate in a mentorship program.
-
-
+  Pewlett- Hackard is a large company with a long time in the industry and it has a lot of employees in retirement age. For this reason, they are preparing  two strategies: first, offering a retirement package for the next to retire employees,  and second, preparing  a Mentorship Program with experience employees who  can prepare the next generation of workers to ocupy the future vacancies.  
+  We need to determine the number of future vacancies and identify the employees who are eligible to participate in a mentorship program.
 
 # Results
   Based on the information provided by the company, we began the analysis by building the ERD (Entity Relationship Diagram) to build new tables through queries that would give us the information we were looking for. We generate different queries to  get 2 principal tables: one, *Unique Titles* with the data of  the actual employees in age of retirement and their actual titles, to know how many vacancies will in the next months, and the second *Retiring Titles* with the count of the employees and their titles.
